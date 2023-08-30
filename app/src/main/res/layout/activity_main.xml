@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:padding="20dp"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/buttonInformasi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:layout_marginTop="120dp"
+        android:drawableTop="@drawable/ic_info"
+        android:text="Informasi Pemilihan Umum"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buttonFormEntry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:layout_marginTop="120dp"
+        android:drawableTop="@drawable/ic_input"
+        android:text="Form Entri Data Calon Pemilih"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buttonLihatData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="120dp"
+        android:drawableTop="@drawable/ic_list"
+        android:text="Melihat Informasi Data Pemilih"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buttonKeluar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="120dp"
+        android:drawableTop="@drawable/ic_exit"
+        android:text="Keluar"
+        android:padding="8dp"/>
+
+</GridLayout>
